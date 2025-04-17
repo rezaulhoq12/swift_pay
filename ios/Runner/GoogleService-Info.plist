@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA6ExCLhEYFDFB3z9UESKLz76c3CUUxuJU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>363962344387</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>swiftpay</string>
+	<key>PROJECT_ID</key>
+	<string>swiftpay-6ceca</string>
+	<key>STORAGE_BUCKET</key>
+	<string>swiftpay-6ceca.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:363962344387:ios:c30c5cb27055eab4e4d376</string>
+</dict>
+</plist>

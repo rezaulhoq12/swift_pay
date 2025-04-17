@@ -1,0 +1,24 @@
+// All repositories that are shared across your project
+allprojects {
+    repositories {
+        google()  // Required for Firebase and other Google services
+        mavenCentral()  // Common repository for other dependencies
+    }
+}
+
+rootProject.buildDir = "../build"  // Defines the main build directory for the project
+
+subprojects {
+    // Ensure each subproject has its own build directory
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+subprojects {
+    // Dependencies of the app module should be evaluated before building
+    project.evaluationDependsOn(":app")
+}
+
+// Register the clean task for clearing build outputs
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
